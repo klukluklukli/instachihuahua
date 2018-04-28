@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sacramento';
+}
+
+header.main{
+  height: 80px;
+  border: 1px solid #dddddd;
+}
+
+/* LOGO */
+.main .logo {
+  width: 30%;
+  height: inherit;
+  font-size: 40px;
+  /* line-height: 30px; */
+  padding: 20px;
+  float: left;
+}
+
+.logo span {
+  font-size: 40px;
+}
+
+/* NAV */
+nav {
+  height: inherit;
+  width: 30%;
+  float: right;
+}
+
+.main nav > ul {
+  width: 100%;
+  height: inherit;
+  list-style: none;
+}
+
+.main nav > ul li {
+  width: 33.33%;
+  text-align: center;
+  font-size: 25px;
+  line-height: 80px;
+  float: left;
+  height: inherit;
+}
+
+.main nav > ul > li > a:visited {
+  color: #000;
+}
