@@ -135,5 +135,21 @@ nav {
 
 .content > section > article .comment{
   padding: 20px;
-  font-size: 1.5em;
+  overflow: auto;
+}
+
+.content > section > article > .comment > .icons {
+  float: left;
+  width: 20%;
+  font-size: 2em;
+}
+
+.content > section > article input[type="text"] {
+  display: block;
+  float: right;
+  border: none;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 1.1em;
 }
