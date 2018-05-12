@@ -62,3 +62,78 @@ nav {
 .main nav > ul > li > a:visited {
   color: #000;
 }
+
+/* SECTION */
+.content{
+  width: 80%;
+  margin: auto;
+}
+
+.content > section {
+  width: 60%;
+  height: 500px;
+  /* background-color: #f660de; */
+  float: left;
+  padding: 20px;
+}
+
+.content > aside {
+  width: 40%;
+  height: 200px;
+  /* background-color: #63f06d; */
+  float: left;
+  padding: 40px;
+}
+
+/* ASIDE */
+.content > aside > .img, .content > section > article .img {
+    width: 80px;
+    height: 80px;
+    background-color: #a785e6;
+    border-radius: 50%;
+    background-image: url('../images/7.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    float: left;
+}
+
+.content > aside > h2 {
+  float: left;
+  line-height: 80px;
+  padding-left: 20px;
+}
+
+.content > aside > p {
+  clear: both;
+  padding: 10px;
+}
+
+/* SECTION ARTICLE */
+
+.content > section > article {
+  /* padding: 20px; */
+  /* background-color: #1950d9; */
+  border: 1px solid #dedede;
+  border-radius: 10px;
+}
+
+.content > section > article .img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.content > section > article > .info {
+  padding: 20px;
+  line-height: 40px;
+}
+
+.content > section > article img {
+  display: block;
+  width: 100%;
+}
+
+.content > section > article .comment{
+  padding: 20px;
+  font-size: 1.5em;
+}
