@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Univers';
+  src: url('Univers.eot');
+  src: url('Univers.woff2') format('woff2'),
+       url('Univers.woff') format('woff'),
+       url('Univers.ttf') format('truetype'),
+       url('Univers.svg#Univers') format('svg'),
+       url('Univers.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

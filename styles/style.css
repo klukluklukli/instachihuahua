@@ -1,10 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@font-face {
+  font-family: 'Univers';
+  src: local('Univers');
+  src: url('Univers.eot');
+  src: url('../fonts/Univers.woff2') format('woff2'),
+       url('../fonts/Univers.woff') format('woff'),
+       url('../fonts/Univers.ttf') format('truetype'),
+       url('../fonts/Univers.svg#Univers') format('svg'),
+       url('../fonts/Univers.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Sacramento';
+  font-family: 'Univers';
 }
 
 header.main{
@@ -23,7 +34,7 @@ header.main{
 }
 
 .logo span {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* NAV */
