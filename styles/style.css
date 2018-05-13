@@ -170,6 +170,6 @@ nav {
 .box {
   width: 200px;
   height: 200px;
-  background-color: #f74949;
+  background-image: url('../images/7.jpg');
   animation: movebox 2s linear infinite;
 }
